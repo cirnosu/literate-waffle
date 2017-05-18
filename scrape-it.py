@@ -1,6 +1,7 @@
 # coding: utf8 #i'm pretty sure this did nothing
 #the purpose of this script is to take a newline-separated list of bussinesses, google search them,
-#extracting their city, province, phone number and website into a csv that can be opened in excel.
+#extracting their city, province, phone number and website url* into a csv that can be opened in excel.
+# *the urls need to be cleaned, see urlz.py
 
 import requests, bs4, csv
 
