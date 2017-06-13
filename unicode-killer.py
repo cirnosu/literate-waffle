@@ -1,4 +1,9 @@
-#replaces bad chars with a readable substitute
+# BETA NOT TESTED YET
+
+#ever felt like you wanted to kill something over encoding errors? a script like this can easily
+#take zombie characters from a unicode file of web origin and make it readable and useable.
+
+#replaces bad chars with a readable substitute for csv files
 
 import csv
 
@@ -31,3 +36,4 @@ for row in inputReader:
 	outputWriter.writerow(row)
 	
 outputFile.close()
+inputFile.close()
